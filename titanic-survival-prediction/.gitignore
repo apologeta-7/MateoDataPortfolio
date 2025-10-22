@@ -1,0 +1,18 @@
+# Datos y artefactos
+data/
+*.csv
+!submission_logistic.csv
+models/
+*.pkl
+
+# Notebooks / cache
+.ipynb_checkpoints/
+__pycache__/
+
+# Entornos
+.venv/
+env/
+
+# SO
+.DS_Store
+Thumbs.db
