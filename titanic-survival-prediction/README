@@ -68,13 +68,11 @@ The project includes a **step-by-step model comparison** to understand performan
 
 ## 📦 Files Included
 | File | Description |
-|------|--------------|
-| `train.csv` | Original training dataset (Kaggle) |
-| `test.csv` | Test dataset for submission |
-| `gender_submission.csv` | Example submission format |
-| `Titanic_EDA_Modeling.ipynb` | Main notebook (EDA, modeling, comparison) |
-| `submission_rf.csv` | Random Forest prediction file |
-| `submission_xgb.csv` | XGBoost prediction file |
+|------|-------------|
+| `titanic_survival_prediction.ipynb` | Main notebook (EDA, modeling, comparison) |
+| `submission_logistic.csv` | Final Kaggle submission (Logistic Regression) |
+| `requirements.txt` | Minimal environment to reproduce |
+| `.gitignore` | Excludes data/artefacts from the repo |
 
 ---
 
