@@ -21,16 +21,14 @@ This repository is structured as a professional portfolio project and demonstrat
 
 ## 📁 Repository Structure
 
-kaggle-house-prices-mateo+++
+house_price_kaggle/
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
 ├─ data/
 │ └─ README_DATA.md
 ├─ notebooks/
-│ ├─ 01_EDA_and_Cleaning.ipynb
-│ ├─ 02_Modeling_and_Validation.ipynb
-│ └─ 03_Prediction_Submission.ipynb
+│ └─ house_prices_full_pipeline.ipynb
 ├─ src/
 │ ├─ prep.py
 │ └─ model.py
@@ -43,12 +41,11 @@ kaggle-house-prices-mateo+++
 markdown
 Copiar código
 
-- **notebooks/**: polished notebooks for EDA, modeling, and inference (in order).
-- **src/**: reusable code for preprocessing and modeling.
-- **results/**: cross-validation metrics and figures.
-- **submission/**: final Kaggle submission file.
-- **data/**: instructions to obtain the dataset (no raw CSVs in Git).
-
+- **notebooks/**: main notebook containing the full pipeline (EDA → Cleaning → Modeling → Prediction).  
+- **src/**: reusable functions for preprocessing and model evaluation.  
+- **results/**: cross-validation metrics and generated figures.  
+- **submission/**: final Kaggle submission file.  
+- **data/**: instructions to obtain the original dataset (no raw CSVs included).  
 ---
 
 ## ⚙️ Methodology
