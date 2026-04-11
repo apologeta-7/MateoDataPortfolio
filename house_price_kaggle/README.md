@@ -111,5 +111,9 @@ All preprocessing occurs inside the scikit-learn Pipeline to prevent leakage.
 The same clipping limits learned on train are applied to test for consistency.
 
 👤 Author
-Mateo Pascual — Data Analyst / ML Enthusiast
-📍 Spain · Open to US/Global opportunities
+**Mateo Pascual Esseiva**  
+📍 Spain · Open to remote  
+💼 Data Analyst | MSc Data Science & AI (Nuclio Digital School)  
+📧 [m.pascual.ess@gmail.com](mailto:m.pascual.ess@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/mateopascualesseiva/)  
+🐙 [GitHub](https://github.com/apologeta-7)

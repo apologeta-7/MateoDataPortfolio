@@ -78,10 +78,10 @@ The project includes a **step-by-step model comparison** to understand performan
 
 ## 🧠 Author
 **Mateo Pascual Esseiva**  
-📍 Based in Spain | 🌎 Working remotely worldwide  
-💼 Data Analyst & Aspiring Data Scientist  
-📧 Email: [m.pascual.ess@proton.me](mailto:m.pascual.ess@proton.me)  
-🔗 [LinkedIn](https://www.linkedin.com/in/mateo-pascual-esseiva-6b3868140/)  
+📍 Spain · Open to remote  
+💼 Data Analyst | MSc Data Science & AI (Nuclio Digital School)  
+📧 [m.pascual.ess@gmail.com](mailto:m.pascual.ess@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/mateopascualesseiva/)  
 🐙 [GitHub](https://github.com/apologeta-7)
 
 ---
