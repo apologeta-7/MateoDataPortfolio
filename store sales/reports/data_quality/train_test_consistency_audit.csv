@@ -1,0 +1,9 @@
+check_name,issue_count,status,details
+stores_only_in_train,0,pass,[]
+stores_only_in_test,0,pass,[]
+families_only_in_train,0,pass,[]
+families_only_in_test,0,pass,[]
+store_family_combinations_only_in_train,0,pass,[]
+store_family_combinations_only_in_test,0,pass,[]
+test_has_expected_full_grid,0,pass,"{'actual_test_rows': 28512, 'expected_test_rows': 28512, 'unique_test_dates': 16, 'unique_test_stores': 54, 'unique_test_families': 33}"
+sample_submission_ids_match_test_ids,0,pass,"{'test_ids': 28512, 'sample_submission_ids': 28512, 'ids_not_matching': 0}"

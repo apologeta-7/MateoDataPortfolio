@@ -1,0 +1,74 @@
+{
+    "model_version": "prophet_total_sales_v1",
+    "decision": "kept_as_interpretable_aggregate_benchmark",
+    "main_model_comparison": "lightgbm_v1_daily_aggregate",
+    "main_results": {
+        "prophet_rmsle": 0.10700144385653945,
+        "prophet_mae": 73232.56224494817,
+        "prophet_wape": 0.08797245889973204,
+        "prophet_total_bias_pct": 0.021287753035722997,
+        "lightgbm_daily_rmsle": 0.057395829243881404,
+        "lightgbm_daily_mae": 36058.20427454231,
+        "lightgbm_daily_wape": 0.04331582558766937,
+        "lightgbm_daily_total_bias_pct": -0.0008340189684873598
+    },
+    "interpretation": {
+        "main_strengths": [
+            "Provides interpretable aggregate time series decomposition.",
+            "Captures trend, weekly seasonality, yearly seasonality, and holiday effects.",
+            "Runs quickly and is lightweight at daily aggregate level.",
+            "Useful as a benchmark for total business volume."
+        ],
+        "main_limitations": [
+            "Does not use store-level or family-level information.",
+            "Does not use promotion-level features.",
+            "Does not use lag or rolling features at granular level.",
+            "Underperforms LightGBM at daily aggregate validation level.",
+            "Shows positive aggregate bias during the validation period."
+        ],
+        "business_decision": "Prophet is useful as an interpretable aggregate benchmark, but LightGBM remains the preferred main forecasting model."
+    },
+    "mlflow_ready_metadata": {
+        "params": {
+            "growth": "linear",
+            "seasonality_mode": "additive",
+            "weekly_seasonality": true,
+            "yearly_seasonality": true,
+            "daily_seasonality": false,
+            "changepoint_prior_scale": 0.05,
+            "seasonality_prior_scale": 10.0,
+            "holidays_prior_scale": 10.0,
+            "interval_width": 0.8,
+            "uncertainty_samples": 0
+        },
+        "metrics": {
+            "model": "prophet_total_sales_v1",
+            "rows": 16,
+            "rmsle": 0.10700144385653945,
+            "mae": 73232.56224494817,
+            "wape": 0.08797245889973204,
+            "bias": 17720.96311438237,
+            "total_bias_pct": 0.021287753035722997,
+            "actual_total_sales": 13319179.781648,
+            "predicted_total_sales": 13602715.191478118
+        },
+        "tags": {
+            "model_version": "prophet_total_sales_v1",
+            "model_family": "prophet",
+            "forecast_level": "daily_total_sales",
+            "comparison_model": "lightgbm_v1_daily_aggregate",
+            "validation_strategy": "temporal_holdout_16_days"
+        },
+        "artifacts": [
+            "models/prophet/prophet_total_sales_v1_model.json",
+            "models/prophet/prophet_total_sales_v1_config.json",
+            "data/predictions/prophet_total_sales_v1_validation_predictions.parquet",
+            "reports/tables/prophet_total_sales_v1_metrics.csv",
+            "reports/tables/prophet_total_sales_v1_vs_lightgbm_daily_comparison.csv",
+            "reports/tables/prophet_total_sales_v1_aggregate_model_comparison.csv",
+            "reports/tables/prophet_total_sales_v1_component_summary.csv",
+            "reports/figures/prophet_total_sales_v1_forecast.png",
+            "reports/figures/prophet_total_sales_v1_components.png"
+        ]
+    }
+}

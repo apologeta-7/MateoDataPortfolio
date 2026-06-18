@@ -1,0 +1,10 @@
+check_name,issue_count,values,status
+families_only_in_train,0,[],pass
+families_only_in_test,0,[],pass
+store_types,0,"['A', 'B', 'C', 'D', 'E']",info
+store_cities,0,"['Ambato', 'Babahoyo', 'Cayambe', 'Cuenca', 'Daule', 'El Carmen', 'Esmeraldas', 'Guaranda', 'Guayaquil', 'Ibarra', 'Latacunga', 'Libertad', 'Loja', 'Machala', 'Manta', 'Playas', 'Puyo', 'Quevedo', 'Quito', 'Riobamba', 'Salinas', 'Santo Domingo']",info
+store_states,0,"['Azuay', 'Bolivar', 'Chimborazo', 'Cotopaxi', 'El Oro', 'Esmeraldas', 'Guayas', 'Imbabura', 'Loja', 'Los Rios', 'Manabi', 'Pastaza', 'Pichincha', 'Santa Elena', 'Santo Domingo de los Tsachilas', 'Tungurahua']",info
+store_clusters,0,"[np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16), np.int64(17)]",info
+holiday_types,0,"['Additional', 'Bridge', 'Event', 'Holiday', 'Transfer', 'Work Day']",info
+holiday_locales,0,"['Local', 'National', 'Regional']",info
+holiday_transferred_values,0,"[np.False_, np.True_]",info

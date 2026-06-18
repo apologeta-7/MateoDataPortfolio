@@ -1,0 +1,6 @@
+pattern,value,metric_value
+highest_average_sales_day_of_week,Sunday,828620.3626696874
+lowest_average_sales_day_of_week,Thursday,507329.8520941824
+highest_average_sales_month,December,808565.33970803
+lowest_average_sales_month,February,571895.2442250773
+year_start_days_excluded_from_seasonality,5,0.9835016835016835

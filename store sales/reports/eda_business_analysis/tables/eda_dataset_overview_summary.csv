@@ -1,0 +1,7 @@
+dataset,rows,columns,date_min,date_max,memory_mb
+train_base,3000888,30,2013-01-01,2017-08-15,645.4
+test_base,28512,29,2017-08-16,2017-08-31,5.91
+transactions_clean,83488,3,2013-01-01,2017-08-15,1.91
+stores_clean,54,5,,,0.0
+oil_daily_clean,1704,5,2013-01-01,2017-08-31,0.03
+holidays_daily_clean,1704,17,2013-01-01,2017-08-31,0.19

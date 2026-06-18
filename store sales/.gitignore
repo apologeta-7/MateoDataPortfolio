@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and local tracking
+*.log
+mlruns/
+mlflow.db
+
+# Large or reproducible data artifacts
+data/raw/
+data/interim/
+data/processed/
+data/predictions/
+data/features/*
+!data/features/baseline_test_features.parquet
+
+# Local submissions are generated outputs
+submissions/
+

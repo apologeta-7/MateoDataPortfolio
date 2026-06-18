@@ -1,0 +1,8 @@
+criterion,preferred_model,evidence,decision_impact,status
+Operational granularity,lightgbm_v1,Predicts at date + store_nbr + family level.,critical,passed
+Granular RMSLE vs best baseline,lightgbm_v1,LightGBM RMSLE: 0.4167; best baseline RMSLE: 0.5216,critical,passed
+Granular WAPE vs best baseline,lightgbm_v1,LightGBM WAPE: 0.1459; best baseline WAPE: 0.2081,high,passed
+Total forecast bias,lightgbm_v1,LightGBM total bias pct: -0.0008,high,passed
+Daily aggregate comparison vs Prophet,lightgbm_v1,LightGBM daily RMSLE: 0.0574; Prophet daily RMSLE: 0.1070,medium,passed
+Deployment readiness,lightgbm_v1,"Serialized model, feature list, config, validation predictions and submission artifacts already exist.",high,passed
+Interpretability benchmark,prophet_total_sales_v1,"Prophet provides useful aggregate trend, weekly seasonality, yearly seasonality and holiday components.",supporting,supporting_model

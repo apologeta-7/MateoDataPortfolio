@@ -1,0 +1,2 @@
+model,training_rows,validation_rows,features,best_iteration,best_train_rmse_log,best_valid_rmse_log,training_time_seconds,training_time_minutes
+lightgbm_v1,2972376,28512,41,1174,0.39628429547621763,0.41673849467328083,161.04,2.68

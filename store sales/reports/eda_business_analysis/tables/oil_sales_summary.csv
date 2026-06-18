@@ -1,0 +1,8 @@
+metric,value
+oil_price_min,26.19
+oil_price_max,110.62
+oil_price_mean,67.92489904988123
+oil_price_median,53.41
+oil_price_missing_days,0.0
+pearson_daily_oil_sales_correlation,-0.6268894636886431
+spearman_daily_oil_sales_correlation,-0.6082405754519256

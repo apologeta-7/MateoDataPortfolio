@@ -16,6 +16,7 @@ __pycache__/
 data/raw/
 data/processed/
 *.csv
+!store sales/**/*.csv
 
 # IDEs
 .vscode/

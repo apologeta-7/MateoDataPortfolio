@@ -1,0 +1,55 @@
+store_nbr,city,state,store_type,sales_volume_segment,actual_total_sales_lightgbm,predicted_total_sales_lightgbm,rmsle_lightgbm,wape_lightgbm,total_bias_pct_lightgbm,error_contribution_pct_lightgbm,better_model_by_store_rmsle
+1,Quito,Pichincha,D,regular_volume_store,155135.629205,163862.724023,0.39761,0.147892,0.056255,0.01181,lightgbm_v1
+2,Quito,Pichincha,D,regular_volume_store,213634.601094,234574.218566,0.360671,0.132855,0.098016,0.014609,lightgbm_v1
+3,Quito,Pichincha,D,high_volume_store,538086.824756,571805.811469,0.325592,0.124075,0.062665,0.034365,lightgbm_v1
+4,Quito,Pichincha,D,regular_volume_store,187479.341041,199545.348262,0.34151,0.137946,0.064359,0.013312,lightgbm_v1
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,regular_volume_store,156442.87889,165060.857257,0.372322,0.118684,0.055087,0.009557,lightgbm_v1
+6,Quito,Pichincha,D,regular_volume_store,257699.853928,276258.69296,0.317983,0.106935,0.072017,0.014185,lightgbm_v1
+7,Quito,Pichincha,D,regular_volume_store,286238.018037,312128.363958,0.342783,0.136223,0.09045,0.020071,lightgbm_v1
+8,Quito,Pichincha,D,high_volume_store,324826.412986,333213.301553,0.350395,0.105146,0.02582,0.01758,lightgbm_v1
+9,Quito,Pichincha,B,high_volume_store,303853.380946,294036.246462,0.43353,0.120549,-0.032309,0.018854,lightgbm_v1
+10,Quito,Pichincha,C,regular_volume_store,114855.501021,103635.552194,0.405515,0.15354,-0.097688,0.009077,lightgbm_v1
+11,Cayambe,Pichincha,B,high_volume_store,340283.811002,341509.029346,0.386765,0.111919,0.003601,0.019603,lightgbm_v1
+12,Latacunga,Cotopaxi,C,regular_volume_store,123828.406029,107233.480401,0.40904,0.192731,-0.134015,0.012284,lightgbm_v1
+13,Latacunga,Cotopaxi,C,regular_volume_store,114921.912025,108624.237291,0.402563,0.152623,-0.0548,0.009028,lightgbm_v1
+14,Riobamba,Chimborazo,C,regular_volume_store,136648.141012,111743.164314,0.46167,0.226614,-0.182256,0.015939,lightgbm_v1
+15,Ibarra,Imbabura,C,regular_volume_store,125263.497994,128304.534528,0.401629,0.130849,0.024277,0.008437,lightgbm_v1
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,regular_volume_store,104594.092001,100927.538533,0.41904,0.156431,-0.035055,0.008422,lightgbm_v1
+17,Quito,Pichincha,C,regular_volume_store,220880.25902,228242.738313,0.409417,0.100456,0.033332,0.011421,lightgbm_v1
+18,Quito,Pichincha,B,regular_volume_store,162414.111006,74287.967877,0.779469,0.55788,-0.542602,0.046639,baseline_rolling_mean_28_origin
+19,Guaranda,Bolivar,C,regular_volume_store,150509.45497,147791.089724,0.489539,0.131827,-0.018061,0.010213,lightgbm_v1
+20,Quito,Pichincha,B,high_volume_store,288872.733076,253374.322348,0.441333,0.179053,-0.122886,0.026624,lightgbm_v1
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,regular_volume_store,235963.327067,223314.673957,0.424003,0.144815,-0.053604,0.017589,lightgbm_v1
+22,Puyo,Pastaza,C,regular_volume_store,121737.91598,110777.902346,0.478123,0.214923,-0.09003,0.013468,lightgbm_v1
+23,Ambato,Tungurahua,D,regular_volume_store,120386.485002,127772.374041,0.401496,0.153804,0.061351,0.009531,lightgbm_v1
+24,Guayaquil,Guayas,D,regular_volume_store,268779.943814,282717.251251,0.342772,0.092255,0.051854,0.012764,lightgbm_v1
+25,Salinas,Santa Elena,D,regular_volume_store,154921.537115,102871.901947,0.536165,0.343893,-0.335974,0.027423,baseline_rolling_mean_28_origin
+26,Guayaquil,Guayas,D,regular_volume_store,74602.877001,72859.692528,0.480407,0.219778,-0.023366,0.00844,lightgbm_v1
+27,Daule,Guayas,D,regular_volume_store,236019.993022,246078.245154,0.345777,0.098217,0.042616,0.011932,lightgbm_v1
+28,Guayaquil,Guayas,E,regular_volume_store,260467.96499,240695.480809,0.389838,0.174033,-0.075911,0.023333,lightgbm_v1
+29,Guayaquil,Guayas,E,regular_volume_store,213341.061994,200137.783122,0.372675,0.123258,-0.061888,0.013535,lightgbm_v1
+30,Guayaquil,Guayas,C,regular_volume_store,105535.491004,98712.077218,0.428414,0.221088,-0.064655,0.01201,lightgbm_v1
+31,Babahoyo,Los Rios,B,regular_volume_store,236023.381114,226875.073547,0.383642,0.123441,-0.03876,0.014997,lightgbm_v1
+32,Guayaquil,Guayas,C,regular_volume_store,83639.456997,71106.097331,0.425522,0.246236,-0.14985,0.010601,lightgbm_v1
+33,Quevedo,Los Rios,C,regular_volume_store,164523.799015,160562.565477,0.397339,0.147585,-0.024077,0.012498,lightgbm_v1
+34,Guayaquil,Guayas,B,regular_volume_store,181220.107016,173555.225904,0.442265,0.121745,-0.042296,0.011356,lightgbm_v1
+35,Playas,Guayas,C,regular_volume_store,91229.164987,88045.285602,0.420337,0.157709,-0.0349,0.007406,lightgbm_v1
+36,Libertad,Guayas,E,regular_volume_store,213441.468925,182970.33829,0.443152,0.19326,-0.142761,0.021233,lightgbm_v1
+37,Cuenca,Azuay,D,regular_volume_store,196512.910975,218580.33062,0.360903,0.158426,0.112295,0.016025,lightgbm_v1
+38,Loja,Loja,D,regular_volume_store,197783.477011,210376.169829,0.433164,0.227576,0.063669,0.023169,lightgbm_v1
+39,Cuenca,Azuay,B,regular_volume_store,261722.187096,266038.198453,0.414296,0.206437,0.016491,0.027811,lightgbm_v1
+40,Machala,El Oro,C,regular_volume_store,287750.831,252945.481789,0.407693,0.188431,-0.120957,0.027909,lightgbm_v1
+41,Machala,El Oro,D,regular_volume_store,200789.765994,218732.993671,0.384318,0.204537,0.089363,0.02114,lightgbm_v1
+42,Cuenca,Azuay,D,regular_volume_store,181667.70799,212480.33869,0.370282,0.226619,0.16961,0.021191,lightgbm_v1
+43,Esmeraldas,Esmeraldas,E,regular_volume_store,264231.62201,257523.783669,0.439661,0.118971,-0.025386,0.016181,lightgbm_v1
+44,Quito,Pichincha,A,high_volume_store,656651.352984,706031.235732,0.406703,0.118956,0.0752,0.040207,lightgbm_v1
+45,Quito,Pichincha,A,high_volume_store,631268.519539,649615.608001,0.376255,0.101857,0.029064,0.033097,lightgbm_v1
+46,Quito,Pichincha,A,high_volume_store,456761.591083,473446.43615,0.371104,0.11034,0.036529,0.025942,lightgbm_v1
+47,Quito,Pichincha,A,high_volume_store,581797.17102,599958.082615,0.451126,0.1183,0.031215,0.035427,lightgbm_v1
+48,Quito,Pichincha,A,high_volume_store,403740.960073,400043.245603,0.443941,0.124335,-0.009159,0.025839,lightgbm_v1
+49,Quito,Pichincha,A,high_volume_store,518238.797023,563571.356778,0.37078,0.126836,0.087474,0.033834,lightgbm_v1
+50,Ambato,Tungurahua,A,high_volume_store,326493.240014,346519.291479,0.471606,0.141291,0.061337,0.023745,lightgbm_v1
+51,Guayaquil,Guayas,A,high_volume_store,364628.89803,373678.543996,0.363377,0.097452,0.024819,0.01829,lightgbm_v1
+52,Manta,Manabi,A,high_volume_store,365488.35393,347573.628771,0.365686,0.107575,-0.049016,0.020238,baseline_rolling_mean_28_origin
+53,Manta,Manabi,D,regular_volume_store,178777.0818,188606.549037,0.394308,0.117077,0.054982,0.010774,lightgbm_v1
+54,El Carmen,Manabi,C,regular_volume_store,176572.478994,157138.870277,0.424816,0.209401,-0.11006,0.019032,lightgbm_v1

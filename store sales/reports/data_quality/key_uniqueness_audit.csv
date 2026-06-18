@@ -1,0 +1,8 @@
+dataset,key_columns,total_rows,unique_keys,duplicated_key_rows,duplicate_key_groups,unique_required,key_is_unique,validation_status,reason
+train,date + store_nbr + family,3000888,3000888,0,0,True,True,pass,Main historical forecasting grain
+test,date + store_nbr + family,28512,28512,0,0,True,True,pass,Future forecasting grain
+stores,store_nbr,54,54,0,0,True,True,pass,Store master table
+oil,date,1218,1218,0,0,True,True,pass,Daily external variable
+transactions,date + store_nbr,83488,83488,0,0,True,True,pass,Historical store-level activity
+sample_submission,id,28512,28512,0,0,True,True,pass,Submission identifier
+holidays,date,350,312,69,31,False,False,pass,Multiple events can occur on the same date

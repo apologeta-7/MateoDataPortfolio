@@ -1,0 +1,3 @@
+dataset,rows,date_min,date_max,unique_dates,unique_stores,unique_families,total_sales,mean_sales_per_row,median_sales_per_row,max_sales_per_row,zero_sales_rows,zero_sales_pct,rows_with_promotion,rows_with_promotion_pct,total_promotion_units
+train_base,3000888,2013-01-01,2017-08-15,1684,54,33,1073644952.2030685,357.7757491126188,11.0,124717.0,939130.0,0.3129506999261552,611329,0.20371603338745065,7810622
+test_base,28512,2017-08-16,2017-08-31,16,54,33,,,,,,,12569,0.44083193041526375,198597

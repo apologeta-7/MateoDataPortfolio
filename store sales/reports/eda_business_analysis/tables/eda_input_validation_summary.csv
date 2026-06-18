@@ -1,0 +1,7 @@
+file_name,expected_location,exists,file_size_mb,required_for,path
+train_base.parquet,data/processed,True,21.42,main EDA table,data/processed/train_base.parquet
+test_base.parquet,data/processed,True,0.2,future horizon structure review,data/processed/test_base.parquet
+transactions_clean.parquet,data/interim,True,0.17,historical transactions analysis,data/interim/transactions_clean.parquet
+stores_clean.parquet,data/interim,True,0.0,store-level metadata review,data/interim/stores_clean.parquet
+oil_daily_clean.parquet,data/interim,True,0.02,oil price contextual analysis,data/interim/oil_daily_clean.parquet
+holidays_daily_clean.parquet,data/interim,True,0.03,holiday and event analysis,data/interim/holidays_daily_clean.parquet

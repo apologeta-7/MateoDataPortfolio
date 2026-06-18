@@ -1,0 +1,6 @@
+finding,value,metric,metric_value
+oil_price_min,train_period,oil_price,26.19
+oil_price_max,train_period,oil_price,110.62
+daily_oil_sales_pearson_correlation,daily_level,pearson_correlation,-0.6268894636886431
+daily_oil_sales_spearman_correlation,daily_level,spearman_correlation,-0.6082405754519256
+future_oil_missing_days,test_base,missing_days,0.0

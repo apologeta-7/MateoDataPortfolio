@@ -1,0 +1,2 @@
+total_rows,unique_dates,unique_stores,duplicated_date_store_keys,missing_values,negative_transactions,min_transactions,max_transactions
+83488,1682,54,0,0,0,5,8359

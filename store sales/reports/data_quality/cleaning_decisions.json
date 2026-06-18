@@ -1,0 +1,62 @@
+[
+    {
+        "area": "Raw data",
+        "decision": "Never overwrite raw files",
+        "reason": "Raw files are the source of truth and must remain unchanged.",
+        "output_impact": "All generated files will be saved under data/interim, data/processed, or reports."
+    },
+    {
+        "area": "Train and test",
+        "decision": "Keep train and test separated",
+        "reason": "Keeping them separated reduces the risk of data leakage.",
+        "output_impact": "train_clean and test_clean will be created separately."
+    },
+    {
+        "area": "Forecasting grain",
+        "decision": "Use date + store_nbr + family as the forecasting grain",
+        "reason": "This is the unique logical key available in both train and test.",
+        "output_impact": "All base tables must preserve this grain."
+    },
+    {
+        "area": "Product metadata",
+        "decision": "Use family as the available product-level variable",
+        "reason": "The dataset does not include a separate item-level metadata table.",
+        "output_impact": "No item-level joins will be created."
+    },
+    {
+        "area": "Oil",
+        "decision": "Create a complete daily oil table and impute missing prices",
+        "reason": "Raw oil data does not contain every calendar date and includes null price values.",
+        "output_impact": "oil_daily_clean will be created before joining with train or test."
+    },
+    {
+        "area": "Holidays",
+        "decision": "Aggregate holidays by date before joining",
+        "reason": "Multiple holiday events can occur on the same date, creating row multiplication if joined directly.",
+        "output_impact": "holidays_daily_clean will be created for safe joins."
+    },
+    {
+        "area": "Transactions",
+        "decision": "Clean and save transactions separately",
+        "reason": "Transactions are historical and are not available for the future test period.",
+        "output_impact": "transactions_clean will be saved, but not included in the default train/test base tables."
+    },
+    {
+        "area": "Sales target",
+        "decision": "Do not transform sales in this notebook",
+        "reason": "Target transformations belong to feature engineering or modeling notebooks.",
+        "output_impact": "sales will remain unchanged in train_clean and train_base."
+    },
+    {
+        "area": "Missing values",
+        "decision": "Only handle missing values where required for safe joins",
+        "reason": "The only detected missing values are in the auxiliary oil price column.",
+        "output_impact": "Missing oil prices will be handled in oil_daily_clean."
+    },
+    {
+        "area": "Output format",
+        "decision": "Use Parquet as the main output format",
+        "reason": "Parquet is efficient, preserves data types better than CSV, and is suitable for reusable pipelines.",
+        "output_impact": "Clean datasets will be saved as .parquet files."
+    }
+]

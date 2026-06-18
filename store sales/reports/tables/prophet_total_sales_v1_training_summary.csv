@@ -1,0 +1,2 @@
+model,training_rows,validation_rows,training_start_date,training_end_date,validation_start_date,validation_end_date,holidays_used,forecast_columns_available,training_time_seconds,training_time_minutes
+prophet_total_sales_v1,1668,16,2013-01-01,2017-07-30,2017-07-31,2017-08-15,True,"['ds', 'yhat', 'trend', 'weekly', 'yearly', 'holidays']",5.14,0.09

@@ -1,0 +1,2 @@
+total_rows,unique_stores,duplicated_store_nbr,missing_values,unique_cities,unique_states,unique_store_types,unique_clusters
+54,54,0,0,22,16,5,17

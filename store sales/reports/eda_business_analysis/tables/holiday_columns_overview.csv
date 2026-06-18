@@ -1,0 +1,17 @@
+column_group,column_name
+core,calendar_event_count
+core,transferred_event_count
+core,unique_locale_names
+core,non_transferred_event_count
+core,is_calendar_event
+core,has_non_transferred_event
+core,has_transferred_event
+type,holiday_type_additional
+type,holiday_type_bridge
+type,holiday_type_event
+type,holiday_type_holiday
+type,holiday_type_transfer
+type,holiday_type_work_day
+locale,holiday_locale_local
+locale,holiday_locale_national
+locale,holiday_locale_regional

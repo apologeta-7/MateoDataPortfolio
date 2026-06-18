@@ -1,0 +1,17 @@
+date,calendar_event_count,transferred_event_count,unique_locale_names,non_transferred_event_count,is_calendar_event,has_non_transferred_event,has_transferred_event,holiday_type_additional,holiday_type_bridge,holiday_type_event,holiday_type_holiday,holiday_type_transfer,holiday_type_work_day,holiday_locale_local,holiday_locale_national,holiday_locale_regional
+2017-08-16,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-17,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-18,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-19,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-20,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-21,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-22,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-23,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-24,1,0,1,1,True,True,False,0,0,0,1,0,0,1,0,0
+2017-08-25,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-26,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-27,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-28,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-29,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-30,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0
+2017-08-31,0,0,0,0,False,False,False,0,0,0,0,0,0,0,0,0

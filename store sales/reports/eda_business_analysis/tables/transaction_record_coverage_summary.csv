@@ -1,0 +1,6 @@
+metric,value
+store_day_rows,90936.0
+store_day_rows_with_transaction_record,83488.0
+store_day_rows_with_transaction_record_pct,0.9180962435119204
+store_day_rows_without_transaction_record,7448.0
+store_day_rows_without_transaction_record_pct,0.08190375648807953

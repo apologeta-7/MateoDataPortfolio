@@ -1,0 +1,6 @@
+dataset,date_column,min_date,max_date,unique_dates,expected_calendar_days,missing_calendar_days,invalid_dates
+train,date,2013-01-01,2017-08-15,1684,1688,4,0
+test,date,2017-08-16,2017-08-31,16,16,0,0
+oil,date,2013-01-01,2017-08-31,1218,1704,486,0
+holidays,date,2012-03-02,2017-12-26,312,2126,1814,0
+transactions,date,2013-01-01,2017-08-15,1682,1688,6,0

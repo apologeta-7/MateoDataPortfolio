@@ -1,0 +1,9 @@
+file_name,expected_location,exists,rows,columns,file_size_mb,path,is_valid
+train_clean.parquet,data/interim,True,3000888,6,20.97,data/interim/train_clean.parquet,True
+test_clean.parquet,data/interim,True,28512,5,0.18,data/interim/test_clean.parquet,True
+stores_clean.parquet,data/interim,True,54,5,0.0,data/interim/stores_clean.parquet,True
+oil_daily_clean.parquet,data/interim,True,1704,5,0.02,data/interim/oil_daily_clean.parquet,True
+holidays_daily_clean.parquet,data/interim,True,1704,17,0.03,data/interim/holidays_daily_clean.parquet,True
+transactions_clean.parquet,data/interim,True,83488,3,0.17,data/interim/transactions_clean.parquet,True
+train_base.parquet,data/processed,True,3000888,30,21.42,data/processed/train_base.parquet,True
+test_base.parquet,data/processed,True,28512,29,0.2,data/processed/test_base.parquet,True

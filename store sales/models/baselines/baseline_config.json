@@ -1,0 +1,83 @@
+{
+    "notebook": "03_feature_engineering_baselines.ipynb",
+    "created_at": "2026-06-03T16:20:46",
+    "prediction_grain": [
+        "date",
+        "store_nbr",
+        "family"
+    ],
+    "target_column": "sales",
+    "forecast_horizon_days": 16,
+    "train_start_date": "2013-01-01",
+    "train_end_date": "2017-07-30",
+    "valid_start_date": "2017-07-31",
+    "valid_end_date": "2017-08-15",
+    "test_start_date": "2017-08-16",
+    "test_end_date": "2017-08-31",
+    "baseline_columns": [
+        "baseline_zero",
+        "baseline_last_observed",
+        "baseline_last_7_day_pattern",
+        "baseline_rolling_mean_28_origin",
+        "baseline_store_family_weekday_avg"
+    ],
+    "best_baseline": "baseline_rolling_mean_28_origin",
+    "best_baseline_rmsle": 0.521588014538081,
+    "best_baseline_wape": 0.20812278385702485,
+    "calendar_features": [
+        "day_of_week",
+        "day_of_month",
+        "week_of_year",
+        "month",
+        "year",
+        "is_weekend",
+        "is_month_start",
+        "is_month_end"
+    ],
+    "historical_sales_features": [
+        "sales_lag_16",
+        "sales_lag_21",
+        "sales_lag_28",
+        "sales_rolling_mean_7_shift_16",
+        "sales_rolling_mean_14_shift_16",
+        "sales_rolling_mean_28_shift_16"
+    ],
+    "leakage_rules": [
+        {
+            "rule_id": 1,
+            "rule": "Validation must be strictly later than training.",
+            "application": "The validation window starts after TRAIN_END_DATE."
+        },
+        {
+            "rule_id": 2,
+            "rule": "Historical sales features must not use validation sales.",
+            "application": "Sales lags and rolling features must use at least a 16-day shift."
+        },
+        {
+            "rule_id": 3,
+            "rule": "Baseline statistics must be learned only from train_model_base.",
+            "application": "Validation rows can only receive statistics computed from the training period."
+        },
+        {
+            "rule_id": 4,
+            "rule": "The target column must never be used as a direct feature.",
+            "application": "sales is only used to build past-dependent features and evaluate predictions."
+        },
+        {
+            "rule_id": 5,
+            "rule": "Transactions must not be used as predictive input.",
+            "application": "transactions is historical-only and not available for the future Kaggle test period."
+        },
+        {
+            "rule_id": 6,
+            "rule": "Test data can validate schema but not model performance.",
+            "application": "The Kaggle test target is unknown and must not influence baseline selection."
+        }
+    ],
+    "notes": [
+        "Transactions are excluded because they are not available for the future test period.",
+        "Historical sales features are created using time-safe calendar-based lookups.",
+        "Validation uses the last 16 days of the available training period.",
+        "No folders are created by this notebook."
+    ]
+}

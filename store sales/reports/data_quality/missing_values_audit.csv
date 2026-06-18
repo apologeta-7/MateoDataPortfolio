@@ -1,0 +1,8 @@
+dataset,column_name,total_rows,missing_values,missing_pct,is_critical_column,requires_action,critical_issue
+train,onpromotion,3000888,0,0.0,False,False,False
+test,onpromotion,28512,0,0.0,False,False,False
+stores,cluster,54,0,0.0,False,False,False
+oil,dcoilwtico,1218,43,3.5304,False,True,False
+holidays,transferred,350,0,0.0,False,False,False
+transactions,transactions,83488,0,0.0,False,False,False
+sample_submission,sales,28512,0,0.0,True,False,False

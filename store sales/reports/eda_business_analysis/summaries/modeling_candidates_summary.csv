@@ -1,0 +1,17 @@
+variable_group,candidate_variable,source,available_in_test,expected_value,leakage_risk,recommended_next_action
+Calendar,day_of_week,date,True,Captures weekly replenishment patterns.,none,Create in feature engineering notebook.
+Calendar,month,date,True,Captures monthly and seasonal demand patterns.,none,Create in feature engineering notebook.
+Calendar,is_weekend,date,True,Captures higher weekend demand.,none,Create in feature engineering notebook.
+Calendar,is_year_start,date,True,Captures January 1st closure-like behavior.,none,Create and validate carefully.
+Store,store_nbr,stores / train_base,True,Captures store-level structural demand differences.,low,Use as categorical feature.
+Store metadata,"city, state, store_type, cluster",stores_clean,True,Captures store profile and geographic demand differences.,low,Use as categorical features.
+Product,family,train_base / test_base,True,Captures product-family demand structure.,low,Use as categorical feature.
+Promotion,onpromotion,train_base / test_base,True,Strong candidate because promotions are associated with higher demand.,low if future promotion plan is known,Use directly and test promotion interactions.
+Holiday,is_calendar_event,holidays_daily_clean,True,Captures event-day demand changes.,low,Use as contextual calendar feature.
+Holiday,has_non_transferred_event,holidays_daily_clean,True,Separates effective events from transferred events.,low,Use as contextual calendar feature.
+Holiday,holiday_type_* and holiday_locale_*,holidays_daily_clean,True,Captures differences between event types and scope.,medium due to date-level aggregation of local/regional events,Use carefully and validate contribution.
+Oil,dcoilwtico,oil_daily_clean,True,May capture macroeconomic context.,low if available for forecast horizon,Test as contextual feature; do not assume causality.
+Historical sales,sales_lags,train_base historical sales,derived recursively or from past history,Captures recent demand behavior.,high if computed using future sales,Create only with past information in feature engineering notebook.
+Historical sales,rolling_sales_statistics,train_base historical sales,derived from past history,Captures local trend and demand stability.,high if rolling windows include current/future target,Create with strict temporal shifting.
+Transactions,transactions,transactions_clean,False,Strong historical proxy for store activity.,high,Do not use as direct future feature; consider only lagged historical signals.
+Zero-sales behavior,historical_zero_sales_rate,train_base historical sales,derived from past history,Captures sparse/intermittent demand behavior.,medium if calculated using full history including validation period,Create with train-only or time-safe windows.

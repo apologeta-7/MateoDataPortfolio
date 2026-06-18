@@ -1,0 +1,2 @@
+calendar_start,calendar_end,total_days,dates_with_events,dates_with_non_transferred_events,dates_with_transferred_events,max_events_on_same_date,duplicated_dates_after_cleaning
+2013-01-01,2017-08-31,1704,257,248,9,4,0

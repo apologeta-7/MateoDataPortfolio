@@ -1,0 +1,6 @@
+dimension,source_column,unique_values,top_values
+city,city,22,"Quito, Guayaquil, Santo Domingo, Cuenca, Latacunga"
+state,state,16,"Pichincha, Guayas, Santo Domingo de los Tsachilas, Azuay, Manabi"
+store_type,store_type,5,"D, C, A, B, E"
+cluster,cluster,17,"3, 6, 10, 15, 13"
+family,family,33,"AUTOMOTIVE, BABY CARE, BEAUTY, BEVERAGES, BOOKS"

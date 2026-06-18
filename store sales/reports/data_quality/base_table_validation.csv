@@ -1,0 +1,2 @@
+train_clean_rows,train_base_rows,test_clean_rows,test_base_rows,train_row_count_changed,test_row_count_changed,train_missing_store_features,test_missing_store_features,train_missing_oil_features,test_missing_oil_features,train_missing_holiday_features,test_missing_holiday_features,train_columns,test_columns,transactions_included
+3000888,3000888,28512,28512,False,False,0,0,0,0,0,0,30,29,False

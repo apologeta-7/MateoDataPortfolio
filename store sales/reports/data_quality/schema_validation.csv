@@ -1,0 +1,8 @@
+dataset,expected_columns,actual_columns,missing_columns,unexpected_columns,schema_is_valid
+train,"['id', 'date', 'store_nbr', 'family', 'sales', 'onpromotion']","['id', 'date', 'store_nbr', 'family', 'sales', 'onpromotion']",[],[],True
+test,"['id', 'date', 'store_nbr', 'family', 'onpromotion']","['id', 'date', 'store_nbr', 'family', 'onpromotion']",[],[],True
+stores,"['store_nbr', 'city', 'state', 'type', 'cluster']","['store_nbr', 'city', 'state', 'type', 'cluster']",[],[],True
+oil,"['date', 'dcoilwtico']","['date', 'dcoilwtico']",[],[],True
+holidays,"['date', 'type', 'locale', 'locale_name', 'description', 'transferred']","['date', 'type', 'locale', 'locale_name', 'description', 'transferred']",[],[],True
+transactions,"['date', 'store_nbr', 'transactions']","['date', 'store_nbr', 'transactions']",[],[],True
+sample_submission,"['id', 'sales']","['id', 'sales']",[],[],True

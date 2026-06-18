@@ -1,0 +1,7 @@
+check,passed,critical,details
+prediction_column_available,True,True,Prediction column: prediction
+predictions_not_null,True,True,Null predictions: 0
+predictions_are_non_negative,True,True,Negative predictions: 0
+predictions_are_finite,True,True,All predictions are finite.
+prediction_output_grain_available,True,True,Prediction grain columns are available.
+prediction_output_grain_is_unique,True,True,Duplicated output grain rows: 0

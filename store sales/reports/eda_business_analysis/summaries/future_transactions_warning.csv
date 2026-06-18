@@ -1,0 +1,2 @@
+dataset,date_min,date_max,available_for_train_period,available_for_test_period,modeling_risk
+transactions_clean,2013-01-01,2017-08-15,True,False,Direct use of future transactions would create leakage because transactions are not available for the test horizon.

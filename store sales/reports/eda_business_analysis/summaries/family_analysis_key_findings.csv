@@ -1,0 +1,7 @@
+finding,value,metric,metric_value
+highest_total_sales_family,GROCERY I,total_sales,343462734.886
+lowest_total_sales_family,BOOKS,total_sales,6438.0
+highest_zero_sales_family,BOOKS,mean_zero_sales_stores_pct,0.9695500131960939
+highest_volatility_family,BOOKS,daily_sales_cv,3.3923090911131557
+top_5_families_sales_share_pct,top_5_families,sales_share_pct,0.7871605057410196
+top_10_families_sales_share_pct,top_10_families,sales_share_pct,0.9304097163905403

@@ -1,0 +1,76 @@
+{
+    "model_version": "lightgbm_v1",
+    "decision": "accepted_as_first_main_machine_learning_model",
+    "benchmark_model": "baseline_rolling_mean_28_origin",
+    "main_results": {
+        "rmsle": 0.41670386640526996,
+        "mae": 68.13794990533272,
+        "wape": 0.1458610259452829,
+        "total_bias_pct": -0.0008340189684872201,
+        "rmsle_improvement_pct_vs_best_baseline": 0.20108619295191546,
+        "wape_improvement_pct_vs_best_baseline": 0.29915877905282184
+    },
+    "main_strengths": [
+        "Improves global RMSLE over the best baseline.",
+        "Reduces WAPE and MAE substantially.",
+        "Keeps aggregate forecast bias close to neutral.",
+        "Improves promotional and high-volume segments."
+    ],
+    "main_risks": [
+        "Store 18 and store 25 remain critical exceptions.",
+        "Late-horizon days 13 and 14 show worse WAPE than the baseline.",
+        "SCHOOL AND OFFICE SUPPLIES remains difficult and underpredicted."
+    ],
+    "mlflow_ready_metadata": {
+        "params": {
+            "objective": "regression",
+            "metric": "rmse",
+            "boosting_type": "gbdt",
+            "learning_rate": 0.05,
+            "num_leaves": 31,
+            "max_depth": -1,
+            "min_data_in_leaf": 100,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.8,
+            "bagging_freq": 1,
+            "lambda_l1": 0.0,
+            "lambda_l2": 1.0,
+            "max_bin": 255,
+            "force_col_wise": true,
+            "deterministic": true,
+            "verbosity": -1,
+            "num_threads": 3,
+            "seed": 42,
+            "feature_fraction_seed": 42,
+            "bagging_seed": 42,
+            "data_random_seed": 42
+        },
+        "metrics": {
+            "model": "lightgbm_v1",
+            "rows": 28512,
+            "rmsle": 0.41670386640526996,
+            "mae": 68.13794990533272,
+            "wape": 0.1458610259452829,
+            "bias": -0.3896060810390852,
+            "total_bias_pct": -0.0008340189684872201,
+            "actual_total_sales": 13319179.781647999,
+            "predicted_total_sales": 13308071.333065413
+        },
+        "tags": {
+            "model_version": "lightgbm_v1",
+            "model_family": "lightgbm",
+            "dataset_source": "notebook_03_feature_engineering_baselines",
+            "validation_strategy": "temporal_holdout_16_days",
+            "target_transformation": "log1p"
+        },
+        "artifacts": [
+            "models/lightgbm/lightgbm_v1_model.txt",
+            "models/lightgbm/lightgbm_v1_feature_list.json",
+            "models/lightgbm/lightgbm_v1_config.json",
+            "data/predictions/lightgbm_v1_validation_predictions.parquet",
+            "reports/tables/lightgbm_v1_metrics.csv",
+            "reports/tables/lightgbm_v1_baseline_comparison.csv",
+            "reports/tables/lightgbm_v1_feature_importance.csv"
+        ]
+    }
+}

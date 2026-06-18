@@ -1,0 +1,6 @@
+dataset,column_name,rule,invalid_count
+train,sales,sales must be greater than or equal to 0,0
+train,onpromotion,onpromotion must be greater than or equal to 0,0
+test,onpromotion,onpromotion must be greater than or equal to 0,0
+transactions,transactions,transactions must be greater than or equal to 0,0
+oil,dcoilwtico,oil price must be greater than 0 when available,0

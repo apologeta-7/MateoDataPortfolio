@@ -1,0 +1,8 @@
+file_name,file_extension,file_size_mb,modified_at,is_expected_file
+holidays_events.csv,.csv,0.021,2021-11-22 20:13:44,True
+oil.csv,.csv,0.02,2021-11-22 20:13:44,True
+sample_submission.csv,.csv,0.326,2021-11-22 20:13:44,True
+stores.csv,.csv,0.001,2021-11-22 20:13:44,True
+test.csv,.csv,0.975,2021-11-22 20:13:44,True
+train.csv,.csv,116.158,2021-11-22 20:13:46,True
+transactions.csv,.csv,1.481,2021-11-22 20:13:54,True

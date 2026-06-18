@@ -1,0 +1,2 @@
+train_rows,test_rows,train_unique_ids,test_unique_ids,train_unique_forecasting_keys,test_unique_forecasting_keys,train_missing_values,test_missing_values,negative_sales,negative_train_onpromotion,negative_test_onpromotion,train_min_date,train_max_date,test_min_date,test_max_date
+3000888,28512,3000888,28512,3000888,28512,0,0,0,0,0,2013-01-01,2017-08-15,2017-08-16,2017-08-31

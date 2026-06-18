@@ -1,0 +1,6 @@
+finding,value,metric,metric_value
+highest_total_sales_store,44,total_sales,62087553.250089
+lowest_total_sales_store,52,total_sales,2696169.733249
+highest_volatility_store,52,daily_sales_cv,3.7381219021835905
+top_5_stores_sales_share_pct,top_5_stores,sales_share_pct,0.24350310515609935
+top_10_stores_sales_share_pct,top_10_stores,sales_share_pct,0.4017379006881632

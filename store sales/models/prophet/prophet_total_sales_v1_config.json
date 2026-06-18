@@ -1,0 +1,71 @@
+{
+    "model_version": "prophet_total_sales_v1",
+    "created_at": "2026-06-16T09:29:13.908600",
+    "model_type": "Prophet aggregate daily time series",
+    "scope": "daily_total_sales",
+    "target": "total_daily_sales",
+    "training_period": {
+        "start_date": "2013-01-01T00:00:00",
+        "end_date": "2017-07-30T00:00:00",
+        "rows": 1668
+    },
+    "validation_period": {
+        "start_date": "2017-07-31T00:00:00",
+        "end_date": "2017-08-15T00:00:00",
+        "rows": 16
+    },
+    "prophet_params": {
+        "growth": "linear",
+        "seasonality_mode": "additive",
+        "weekly_seasonality": true,
+        "yearly_seasonality": true,
+        "daily_seasonality": false,
+        "changepoint_prior_scale": 0.05,
+        "seasonality_prior_scale": 10.0,
+        "holidays_prior_scale": 10.0,
+        "interval_width": 0.8,
+        "uncertainty_samples": 0
+    },
+    "holidays": {
+        "used": true,
+        "rows": 338,
+        "unique_dates": 300,
+        "unique_holidays": 105
+    },
+    "main_validation_metrics": {
+        "model": "prophet_total_sales_v1",
+        "rows": 16,
+        "rmsle": 0.10700144385653945,
+        "mae": 73232.56224494817,
+        "wape": 0.08797245889973204,
+        "bias": 17720.96311438237,
+        "total_bias_pct": 0.021287753035722997,
+        "actual_total_sales": 13319179.781648,
+        "predicted_total_sales": 13602715.191478118
+    },
+    "lightgbm_aggregate_comparison": {
+        "prophet_model": "prophet_total_sales_v1",
+        "comparison_model": "lightgbm_v1_daily_aggregate",
+        "prophet_rmsle": 0.10700144385653945,
+        "lightgbm_rmsle": 0.057395829243881404,
+        "rmsle_difference_prophet_minus_lightgbm": 0.04960561461265805,
+        "prophet_wape": 0.08797245889973204,
+        "lightgbm_wape": 0.04331582558766937,
+        "wape_difference_pp_prophet_minus_lightgbm": 4.465663331206268,
+        "prophet_total_bias_pct": 0.021287753035722997,
+        "lightgbm_total_bias_pct": -0.0008340189684873598,
+        "total_bias_difference_pp_prophet_minus_lightgbm": 2.2121772004210354
+    },
+    "artifact_paths": {
+        "model": "models/prophet/prophet_total_sales_v1_model.json",
+        "validation_predictions": "data/predictions/prophet_total_sales_v1_validation_predictions.parquet",
+        "metrics": "reports/tables/prophet_total_sales_v1_metrics.csv",
+        "daily_comparison": "reports/tables/prophet_total_sales_v1_vs_lightgbm_daily_comparison.csv",
+        "aggregate_model_comparison": "reports/tables/prophet_total_sales_v1_aggregate_model_comparison.csv",
+        "component_summary": "reports/tables/prophet_total_sales_v1_component_summary.csv",
+        "component_detail": "reports/tables/prophet_total_sales_v1_validation_component_detail.csv",
+        "weekly_component_summary": "reports/tables/prophet_total_sales_v1_weekly_component_summary.csv",
+        "forecast_figure": "reports/figures/prophet_total_sales_v1_forecast.png",
+        "components_figure": "reports/figures/prophet_total_sales_v1_components.png"
+    }
+}

@@ -1,0 +1,2 @@
+forecast_start_date,forecast_end_date,forecast_horizon_days,future_rows,future_stores,future_families,future_rows_with_promotion,future_rows_with_promotion_pct,future_total_promotion_units
+2017-08-16,2017-08-31,16,28512,54,33,12569,0.44083193041526375,198597

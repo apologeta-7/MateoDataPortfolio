@@ -1,0 +1,2 @@
+calendar_start,calendar_end,total_days,missing_prices_after_imputation,raw_rows_available,calendar_rows_created,prices_imputed,min_oil_price,max_oil_price
+2013-01-01,2017-08-31,1704,0,1218,486,529,26.19,110.62

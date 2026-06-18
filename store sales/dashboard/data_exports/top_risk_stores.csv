@@ -1,0 +1,16 @@
+store_nbr,city,state,store_type,sales_volume_segment,actual_total_sales_lightgbm,predicted_total_sales_lightgbm,rmsle_lightgbm,wape_lightgbm,total_bias_pct_lightgbm,error_contribution_pct_lightgbm,better_model_by_store_rmsle
+18,Quito,Pichincha,B,regular_volume_store,162414.111006,74287.967877,0.779469,0.55788,-0.542602,0.046639,baseline_rolling_mean_28_origin
+44,Quito,Pichincha,A,high_volume_store,656651.352984,706031.235732,0.406703,0.118956,0.0752,0.040207,lightgbm_v1
+47,Quito,Pichincha,A,high_volume_store,581797.17102,599958.082615,0.451126,0.1183,0.031215,0.035427,lightgbm_v1
+3,Quito,Pichincha,D,high_volume_store,538086.824756,571805.811469,0.325592,0.124075,0.062665,0.034365,lightgbm_v1
+49,Quito,Pichincha,A,high_volume_store,518238.797023,563571.356778,0.37078,0.126836,0.087474,0.033834,lightgbm_v1
+45,Quito,Pichincha,A,high_volume_store,631268.519539,649615.608001,0.376255,0.101857,0.029064,0.033097,lightgbm_v1
+40,Machala,El Oro,C,regular_volume_store,287750.831,252945.481789,0.407693,0.188431,-0.120957,0.027909,lightgbm_v1
+39,Cuenca,Azuay,B,regular_volume_store,261722.187096,266038.198453,0.414296,0.206437,0.016491,0.027811,lightgbm_v1
+25,Salinas,Santa Elena,D,regular_volume_store,154921.537115,102871.901947,0.536165,0.343893,-0.335974,0.027423,baseline_rolling_mean_28_origin
+20,Quito,Pichincha,B,high_volume_store,288872.733076,253374.322348,0.441333,0.179053,-0.122886,0.026624,lightgbm_v1
+46,Quito,Pichincha,A,high_volume_store,456761.591083,473446.43615,0.371104,0.11034,0.036529,0.025942,lightgbm_v1
+48,Quito,Pichincha,A,high_volume_store,403740.960073,400043.245603,0.443941,0.124335,-0.009159,0.025839,lightgbm_v1
+50,Ambato,Tungurahua,A,high_volume_store,326493.240014,346519.291479,0.471606,0.141291,0.061337,0.023745,lightgbm_v1
+28,Guayaquil,Guayas,E,regular_volume_store,260467.96499,240695.480809,0.389838,0.174033,-0.075911,0.023333,lightgbm_v1
+38,Loja,Loja,D,regular_volume_store,197783.477011,210376.169829,0.433164,0.227576,0.063669,0.023169,lightgbm_v1

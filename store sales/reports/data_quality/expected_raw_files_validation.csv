@@ -1,0 +1,8 @@
+file_name,exists,path
+train.csv,True,data/raw/train.csv
+test.csv,True,data/raw/test.csv
+stores.csv,True,data/raw/stores.csv
+oil.csv,True,data/raw/oil.csv
+holidays_events.csv,True,data/raw/holidays_events.csv
+transactions.csv,True,data/raw/transactions.csv
+sample_submission.csv,True,data/raw/sample_submission.csv

@@ -1,0 +1,16 @@
+family,sales_volume_segment,zero_sales_pct,promotion_rows_pct,actual_total_sales_lightgbm,predicted_total_sales_lightgbm,rmsle_lightgbm,wape_lightgbm,total_bias_pct_lightgbm,error_contribution_pct_lightgbm,better_model_by_family_rmsle
+BEVERAGES,high_volume_family,0.0,0.996528,3005407.0,2992293.865425,0.28249,0.158838,-0.004363,0.245721,baseline_rolling_mean_28_origin
+GROCERY I,high_volume_family,0.0,0.996528,3980412.484,3897033.746344,0.235049,0.119722,-0.020947,0.245294,baseline_rolling_mean_28_origin
+PRODUCE,high_volume_family,0.0,0.99537,1977480.37616,2021245.342319,0.201391,0.112408,0.022132,0.114418,lightgbm_v1
+CLEANING,high_volume_family,0.0,0.996528,1065243.0,1083779.384447,0.300343,0.201877,0.017401,0.110693,lightgbm_v1
+DAIRY,high_volume_family,0.0,0.996528,721034.0,761418.183491,0.198442,0.114845,0.056009,0.042624,lightgbm_v1
+BREAD/BAKERY,high_volume_family,0.0,0.905093,466795.50089,470157.33998,0.231634,0.127425,0.007202,0.030617,lightgbm_v1
+HOME CARE,regular_volume_family,0.0,0.996528,251893.0,279027.567252,0.24715,0.193369,0.107723,0.025072,lightgbm_v1
+POULTRY,high_volume_family,0.0,0.283565,323560.26891,336278.559709,0.271224,0.142433,0.039307,0.023722,lightgbm_v1
+MEATS,high_volume_family,0.0,0.149306,321070.526643,316533.159491,0.298315,0.143467,-0.014132,0.02371,lightgbm_v1
+PERSONAL CARE,high_volume_family,0.0,0.996528,277631.0,273320.330352,0.225923,0.148403,-0.015527,0.021208,lightgbm_v1
+SCHOOL AND OFFICE SUPPLIES,regular_volume_family,0.483796,0.288194,51795.0,12979.73787,0.761323,0.765209,-0.749402,0.020401,lightgbm_v1
+DELI,regular_volume_family,0.0,0.996528,261902.894004,282916.120193,0.210592,0.142308,0.080233,0.019185,lightgbm_v1
+EGGS,regular_volume_family,0.0,0.559028,172529.0,169606.822662,0.327603,0.185749,-0.016937,0.016496,lightgbm_v1
+"LIQUOR,WINE,BEER",regular_volume_family,0.001157,0.924769,84091.0,77472.113062,0.469402,0.276269,-0.078711,0.011958,lightgbm_v1
+FROZEN FOODS,regular_volume_family,0.0,0.791667,110014.157977,104993.48156,0.307827,0.194324,-0.045637,0.011004,lightgbm_v1

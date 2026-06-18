@@ -1,0 +1,16 @@
+artifact_type,path,register
+model,models/lightgbm/lightgbm_v1_model.txt,True
+config,models/lightgbm/lightgbm_v1_config.json,True
+feature_list,models/lightgbm/lightgbm_v1_feature_list.json,True
+validation_predictions,data/predictions/lightgbm_v1_validation_predictions.parquet,True
+test_predictions,data/predictions/lightgbm_v1_test_predictions.parquet,True
+submission,data/predictions/lightgbm_v1_submission.csv,True
+final_leaderboard,reports/tables/final_model_leaderboard.csv,True
+final_decision_matrix,reports/tables/final_model_decision_matrix.csv,True
+final_recommendation,reports/tables/final_model_recommendation.csv,True
+error_by_date,reports/tables/final_error_by_date.csv,True
+error_by_store,reports/tables/final_error_by_store.csv,True
+error_by_family,reports/tables/final_error_by_family.csv,True
+figure_global_metrics,reports/figures/final_model_global_metrics_comparison.png,True
+figure_daily_comparison,reports/figures/final_daily_actual_vs_prediction.png,True
+figure_error_by_date,reports/figures/final_error_by_date.png,True

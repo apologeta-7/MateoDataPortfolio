@@ -1,0 +1,8 @@
+metric,value
+daily_sales_q1,442711.486537375
+daily_sales_q3,785945.481966475
+daily_sales_iqr,343233.9954291
+daily_sales_lower_iqr_bound,-72139.50660627498
+daily_sales_upper_iqr_bound,1300796.475110125
+daily_sales_p01,272848.014544504
+daily_sales_p99,1215894.448290061

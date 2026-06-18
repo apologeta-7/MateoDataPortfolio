@@ -1,0 +1,5 @@
+model,granularity,rows,rmsle,mae,wape,bias,total_bias_pct,actual_total_sales,predicted_total_sales,abs_total_bias_pct,validation_start_date,validation_end_date,n_dates,business_role,rmsle_rank_within_granularity
+lightgbm_v1_daily_aggregate,daily_total_sales,16,0.057396,36058.204275,0.043316,-694.278036,-0.000834,13319179.781648,13308071.333065,0.000834,2017-07-31,2017-08-15,16,daily_aggregate_view_of_operational_model,1
+prophet_total_sales_v1,daily_total_sales,16,0.107001,73232.562245,0.087972,17720.963114,0.021288,13319179.781648,13602715.191478,0.021288,2017-07-31,2017-08-15,16,interpretable_daily_aggregate_benchmark,2
+lightgbm_v1,date_store_family,28512,0.416704,68.13795,0.145861,-0.389606,-0.000834,13319179.781648,13308071.333065,0.000834,2017-07-31,2017-08-15,16,main_operational_forecasting_model,1
+baseline_rolling_mean_28_origin,date_store_family,28512,0.521588,97.223091,0.208123,6.275995,0.013435,13319179.781648,13498120.938055,0.013435,2017-07-31,2017-08-15,16,minimum_operational_benchmark,2

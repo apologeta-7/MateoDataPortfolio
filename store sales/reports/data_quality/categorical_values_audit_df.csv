@@ -1,0 +1,11 @@
+dataset,columne_name,dtype,total_rows,missing_values,unique_values,sample_values
+train,family,str,3000888,0,33,"AUTOMOTIVE,BABY CARE,BEAUTY,BEVERAGES,BOOKS,BREAD/BAKERY,CELEBRATION,CLEANING,DAIRY,DELI"
+test,family,str,28512,0,33,"AUTOMOTIVE,BABY CARE,BEAUTY,BEVERAGES,BOOKS,BREAD/BAKERY,CELEBRATION,CLEANING,DAIRY,DELI"
+stores,city,str,54,0,22,"Ambato,Babahoyo,Cayambe,Cuenca,Daule,El Carmen,Esmeraldas,Guaranda,Guayaquil,Ibarra"
+stores,state,str,54,0,16,"Azuay,Bolivar,Chimborazo,Cotopaxi,El Oro,Esmeraldas,Guayas,Imbabura,Loja,Los Rios"
+stores,type,str,54,0,5,"A,B,C,D,E"
+holidays,type,str,350,0,6,"Additional,Bridge,Event,Holiday,Transfer,Work Day"
+holidays,locale,str,350,0,3,"Local,National,Regional"
+holidays,locale_name,str,350,0,24,"Ambato,Cayambe,Cotopaxi,Cuenca,Ecuador,El Carmen,Esmeraldas,Guaranda,Guayaquil,Ibarra"
+holidays,description,str,350,0,103,"Batalla de Pichincha,Black Friday,Cantonizacion de Cayambe,Cantonizacion de El Carmen,Cantonizacion de Guaranda,Cantonizacion de Latacunga,Cantonizacion de Libertad,Cantonizacion de Quevedo,Cantonizacion de Riobamba,Cantonizacion de Salinas"
+holidays,transferred,bool,350,0,2,"False,True"

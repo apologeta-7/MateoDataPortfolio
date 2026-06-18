@@ -1,0 +1,6 @@
+baseline,description,rmsle,mae,wape,bias,total_bias_pct,actual_total_sales,predicted_total_sales,rmsle_rank,mae_rank,wape_rank
+baseline_rolling_mean_28_origin,Uses the average sales of the last 28 days before the validation horizon.,0.521588014538081,97.22309114929791,0.20812278385702485,6.2759945428830255,0.013434848041711786,13319179.781647999,1.3498121e+07,1,2,2
+baseline_last_7_day_pattern,Repeats the last known weekly pattern before the validation horizon.,0.6170404161001374,96.53539086220458,0.2066506428613292,1.914628503287372,0.004098592314291524,13319179.781647999,1.337377e+07,2,1,1
+baseline_last_observed,Repeats the last observed sales value before the validation horizon.,0.659484200467136,207.50578960928772,0.4442019081003776,163.47011335579325,0.3499359531449828,13319179.781647999,1.798004e+07,3,4,4
+baseline_store_family_weekday_avg,"Uses the historical average by store, family and weekday.",0.691629056068217,142.7926201524263,0.30567221499597713,-113.5773298958584,-0.24313185069043597,13319179.781647999,1.0080863e+07,4,3,3
+baseline_zero,Predicts zero sales for every row.,4.419499687191416,467.1429496930415,1.0,-467.1429496930415,-1.0,13319179.781647999,0.0,5,5,5

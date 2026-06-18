@@ -1,0 +1,2 @@
+model,best_iteration,train_rmse_log,valid_rmse_log,rmse_log_gap,rmse_log_gap_pct_vs_train,num_boost_round_limit,early_stopping_rounds,training_rounds_completed,early_stopping_triggered
+lightgbm_v1,1174,0.39628429547621763,0.41673849467328083,0.020454199197063205,0.051614962870237514,1200,50,1200,False

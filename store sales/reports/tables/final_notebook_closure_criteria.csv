@@ -1,0 +1,15 @@
+criterion,status,evidence
+Required artifacts loaded,completed,"All required predictions, metrics and configs were loaded."
+Validation period checked,completed,Validation dates: 2017-07-31 to 2017-08-15
+Granularity respected,completed,Prophet was evaluated only at daily aggregate level.
+Granular comparison created,completed,Baseline vs LightGBM comparison saved.
+Daily aggregate comparison created,completed,LightGBM daily aggregate vs Prophet comparison saved.
+Error by date analyzed,completed,final_error_by_date.csv
+Error by horizon analyzed,completed,final_error_by_horizon_day.csv
+Error by store analyzed,completed,final_error_by_store.csv
+Error by family analyzed,completed,final_error_by_family.csv
+Error by promotion analyzed,completed,final_error_by_promotion.csv
+Error by holiday/event analyzed,completed,final_error_by_holiday.csv
+Final model selected,completed,lightgbm_v1
+MLflow readiness documented,completed,mlflow_artifacts_recommendation.csv
+Final outputs saved,completed,17 outputs checked.

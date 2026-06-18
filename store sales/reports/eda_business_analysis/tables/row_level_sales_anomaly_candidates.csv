@@ -1,0 +1,31 @@
+date,store_nbr,family,sales,onpromotion,city,state,store_type,cluster,is_calendar_event,has_non_transferred_event,dcoilwtico
+2016-05-02,2,GROCERY I,124717.0,59,Quito,Pichincha,D,13,True,True,44.75
+2016-10-07,39,MEATS,89576.36,0,Cuenca,Azuay,B,6,True,True,49.76
+2016-04-21,20,GROCERY I,87438.516,53,Quito,Pichincha,B,6,True,True,43.18
+2016-04-18,45,GROCERY I,76090.0,38,Quito,Pichincha,A,11,True,True,39.74
+2016-04-26,2,GROCERY I,63434.0,30,Quito,Pichincha,D,13,True,True,42.52
+2016-04-21,45,GROCERY I,53874.0,44,Quito,Pichincha,A,11,True,True,43.18
+2013-11-12,44,GROCERY I,46271.0,0,Quito,Pichincha,A,5,True,True,93.12
+2014-12-08,35,GROCERY I,45361.0,3,Playas,Guayas,C,3,True,True,63.13
+2015-12-14,35,GROCERY I,40351.46,7,Playas,Guayas,C,3,False,False,36.31
+2017-04-02,9,GROCERY I,38422.625,73,Quito,Pichincha,B,6,False,False,50.54
+2016-07-04,20,GROCERY I,37514.926,40,Quito,Pichincha,B,6,False,False,49.02
+2014-12-16,44,GROCERY I,37106.0,7,Quito,Pichincha,A,5,False,False,55.97
+2015-12-04,24,GROCERY I,35828.0,28,Guayaquil,Guayas,D,1,False,False,40.0
+2015-12-18,26,GROCERY I,34454.0,14,Guayaquil,Guayas,D,10,False,False,34.72
+2015-11-11,2,GROCERY I,33274.0,23,Quito,Pichincha,D,13,True,True,42.95
+2014-12-15,26,GROCERY I,32209.0,17,Guayaquil,Guayas,D,10,False,False,55.96
+2014-12-23,31,GROCERY I,31851.158,3,Babahoyo,Los Rios,B,10,True,True,56.78
+2016-12-05,24,GROCERY I,31689.0,98,Guayaquil,Guayas,D,1,True,True,51.72
+2014-12-10,9,GROCERY I,31375.5,10,Quito,Pichincha,B,6,False,False,60.99
+2016-12-12,35,GROCERY I,31125.521,77,Playas,Guayas,C,3,False,False,52.74
+2016-04-17,44,GROCERY I,29670.0,36,Quito,Pichincha,A,5,True,True,40.4
+2016-12-20,45,GROCERY I,29666.0,128,Quito,Pichincha,A,11,False,False,52.22
+2016-06-27,20,GROCERY I,29490.85,28,Quito,Pichincha,B,6,False,False,45.8
+2016-04-18,44,GROCERY I,29193.0,40,Quito,Pichincha,A,5,True,True,39.74
+2016-06-17,20,GROCERY I,28998.662,39,Quito,Pichincha,B,6,False,False,48.0
+2013-02-14,44,GROCERY I,26067.0,0,Quito,Pichincha,A,5,False,False,97.3
+2014-12-18,45,GROCERY I,25991.0,13,Quito,Pichincha,A,11,False,False,54.18
+2016-12-19,45,GROCERY I,25938.0,131,Quito,Pichincha,A,11,False,False,52.13
+2016-12-18,45,GROCERY I,25852.0,139,Quito,Pichincha,A,11,False,False,51.93
+2016-04-17,44,BEVERAGES,25413.0,10,Quito,Pichincha,A,5,True,True,40.4

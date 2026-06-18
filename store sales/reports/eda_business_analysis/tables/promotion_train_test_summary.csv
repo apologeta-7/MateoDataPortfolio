@@ -1,0 +1,3 @@
+dataset,rows,rows_with_promotion,rows_with_promotion_pct,total_promotion_units,mean_promotion_units_per_row,median_promotion_units_per_row,max_promotion_units_per_row
+train_base,3000888,611329,0.20371603338745065,7810622,2.6027702466736513,0.0,741
+test_base,28512,12569,0.44083193041526375,198597,6.9653829966329965,0.0,646

@@ -1,0 +1,6 @@
+finding,value,metric,metric_value
+train_rows_with_promotion_pct,train_base,rows_with_promotion_pct,0.20371603338745065
+test_rows_with_promotion_pct,test_base,rows_with_promotion_pct,0.44083193041526375
+highest_promotion_units_family,GROCERY I,total_promotion_units,1914801.0
+highest_promotion_sales_ratio_family,SCHOOL AND OFFICE SUPPLIES,promotion_mean_sales_ratio,43.56977171160224
+daily_promotion_sales_pearson_correlation,daily_level,pearson_correlation,0.5749429166866838

@@ -1,0 +1,8 @@
+dataset,rows,columns,memory_mb,duplicated_rows,total_missing_values,missing_values_pct
+train,3000888,6,168.16,0,0,0.0
+test,28512,5,1.38,0,0,0.0
+stores,54,5,0.0,0,0,0.0
+oil,1218,2,0.02,0,43,1.7652
+holidays,350,6,0.03,0,0,0.0
+transactions,83488,3,1.91,0,0,0.0
+sample_submission,28512,2,0.44,0,0,0.0

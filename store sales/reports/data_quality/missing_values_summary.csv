@@ -1,0 +1,8 @@
+dataset,total_missing_values,columns_with_missing_values,critical_issues
+holidays,0,0,0
+oil,43,1,0
+sample_submission,0,0,0
+stores,0,0,0
+test,0,0,0
+train,0,0,0
+transactions,0,0,0

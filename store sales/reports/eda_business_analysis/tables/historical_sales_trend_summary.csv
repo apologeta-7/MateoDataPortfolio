@@ -1,0 +1,11 @@
+metric,value
+historical_start_date,2013-01-01 00:00:00
+historical_end_date,2017-08-15 00:00:00
+historical_days,1684
+total_historical_sales,1073644952.2030686
+mean_daily_sales,637556.3849186868
+median_daily_sales,632188.8639199999
+max_daily_sales,1463083.962459
+min_daily_sales,2511.618999
+mean_daily_zero_sales_pct,0.31295069992615515
+mean_daily_promotion_rows_pct,0.20371603338745062

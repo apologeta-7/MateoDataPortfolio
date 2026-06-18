@@ -1,0 +1,5 @@
+level,metric_x,metric_y,correlation_type,correlation_value
+daily,total_transactions,total_sales,pearson,0.6563083781492282
+daily,total_transactions,total_sales,spearman,0.7309793366910382
+store_day,transactions,total_sales,pearson,0.837383680143171
+store_day,transactions,total_sales,spearman,0.8174644354591599

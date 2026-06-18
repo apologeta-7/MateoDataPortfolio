@@ -1,0 +1,2 @@
+train_min_date,train_max_date,test_min_date,test_max_date,train_unique_dates,test_unique_dates,test_horizon_days,test_starts_after_train,train_test_overlap_days
+2013-01-01,2017-08-15,2017-08-16,2017-08-31,1684,16,16,True,0

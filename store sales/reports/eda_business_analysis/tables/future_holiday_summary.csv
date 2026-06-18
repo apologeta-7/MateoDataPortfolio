@@ -1,0 +1,2 @@
+forecast_start_date,forecast_end_date,forecast_horizon_days,future_calendar_event_days,future_non_transferred_event_days,future_transferred_event_days,future_total_calendar_event_count,future_total_non_transferred_event_count
+2017-08-16,2017-08-31,16,1,1,0,1,1

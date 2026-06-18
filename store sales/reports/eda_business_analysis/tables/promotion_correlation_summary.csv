@@ -1,0 +1,3 @@
+correlation_type,metric_x,metric_y,correlation_value
+pearson,daily_total_promotion_units,daily_total_sales,0.5749429166866838
+spearman,daily_total_promotion_units,daily_total_sales,0.700717025643055

@@ -1,0 +1,2 @@
+model,total_iterations_completed,best_iteration,best_train_rmse_log,best_valid_rmse_log,best_rmse_log_gap,best_rmse_log_gap_pct_vs_train,final_iteration,final_train_rmse_log,final_valid_rmse_log,valid_rmse_change_best_to_final,early_stopping_triggered
+lightgbm_v1,1200,1174,0.39628429547621763,0.41673849467328083,0.020454199197063205,0.051614962870237514,1200,0.3954348515731804,0.41676666442936855,2.816975608771477e-05,False

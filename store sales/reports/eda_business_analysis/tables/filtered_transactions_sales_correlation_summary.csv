@@ -1,0 +1,3 @@
+level,filter_applied,metric_x,metric_y,correlation_type,correlation_value
+daily_filtered,"transaction coverage >= 85%, excluding January 1st",total_transactions,total_sales,pearson,0.690382142087284
+daily_filtered,"transaction coverage >= 85%, excluding January 1st",total_transactions,total_sales,spearman,0.7362580433892397
